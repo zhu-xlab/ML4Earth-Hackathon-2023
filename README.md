@@ -5,5 +5,25 @@ Large-scale hydrodynamic models generally rely on fixed-resolution spatial grids
 The hackathon rules are given [here](https://ml4earth23.devpost.com/)  
 The starter pack notebook is given [here](https://ml4earth23.devpost.com/)  
 The training dataset can be downloaded [here](https://ml4earth23.devpost.com/) 
-The Validation dataset can be downloaded [here](https://ml4earth23.devpost.com/) 
+The validation dataset can be downloaded [here](https://ml4earth23.devpost.com/) 
 The data reading functions are given under folder [Code](https://ml4earth23.devpost.com/)  where:
+
+# Study Region
+Floods are a recurring phenomenon in Pakistan, driven mainly by heavy precipitation during the summer monsoon season and occasionally by tropical cyclones. During the summer monsoon of 2022, the densely populated flood plains of southern Baluchistan and Sindh were the worst hit, affecting a large population. 
+
+# Data Requirements
+Data include topographical data, gridded Manning coefficient, and real-time gridded rainfall data.
+## Topographical data
+Specifically, a high-resolution (30 m) forest and buildings removed Copernicus digital elevation model (FABDEM)} from COPDEM30  is required for flood simulation. A bilinear interpolation technique is implemented to downsample the DEM by a factor of 16 (480m), thus producing a coarse grid for the training of the model. 
+
+##  Gridded Manning coefficient
+Land cover information is useful for estimating and adjusting friction and infiltration coefficients in Floodcast. Land cover information in the study area can be subtracted from a publicly available Globa-Land30 dataset~\cite{chen2015global} developed by the Ministry of Natural Resources of China, which is shown in Fig.~\ref{fig:14} (a). It is a parcel‐based land cover map created by classifying satellite data into 8 classes, available at a spatial resolution of up to 30 m for the study area. Cultivated land is the predominant land cover type (57.05\%) in the Pakistan study area, and urban areas only account for 0.8\% of the total study area.
+
+##  Rainfall data
+The rainfall data is a grid‐based data set at $0.1^{\circ} \times 0.1^{\circ}$ spatial resolution and half-hourly temporal resolution from GPM-IMERG. Utilizing the proposed real-time rainfall processing and analysis tool in [2], rainfall data with a temporal resolution of 5 minutes (300 s) and a spatial resolution of $480 m \times 480 m$ is obtained. 
+
+## Training and validation Format
+
+# Terms of Use
+
+# References
