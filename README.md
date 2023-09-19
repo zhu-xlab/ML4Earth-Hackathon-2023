@@ -22,6 +22,8 @@ Land cover information is useful for estimating and adjusting friction and infil
 ##  Rainfall data
 The rainfall data is a grid‐based data set at $0.1^{\circ} \times 0.1^{\circ}$ spatial resolution and half-hourly temporal resolution from GPM-IMERG. Utilizing the proposed real-time rainfall processing and analysis tool in [2], rainfall data with a temporal resolution of 5 minutes (300 s) and a spatial resolution of $480 m \times 480 m$ is obtained. 
 
+##  Initial Conditions
+
 ## Training and validation Format
 
 # Terms of Use
