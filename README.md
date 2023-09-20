@@ -9,6 +9,11 @@ Can we accurately predict the flood extents and depths within a 12-hour timefram
 
 # Important Links
 The hackathon rules are given [here](https://ml4earth23.devpost.com/)  
+## Input Data
+Topographical data are given [here](https://drive.google.com/drive/folders/1X7ZmEvx1KUwSlLCli47UYk9bxgrbLpmo?usp=drive_link) 
+Gridded Manning coefficient are given [here](https://drive.google.com/drive/folders/1X7ZmEvx1KUwSlLCli47UYk9bxgrbLpmo?usp=drive_link) 
+
+
 The starter pack notebook is given [here](https://ml4earth23.devpost.com/)  
 The training dataset can be downloaded [here](https://ml4earth23.devpost.com/) 
 The validation dataset can be downloaded [here](https://ml4earth23.devpost.com/) 
@@ -22,7 +27,7 @@ In the summer monsoon season of 2022, Pakistan experienced a devastating flood e
 The inputs to a hydraulic simulation include an elevation map, initial conditions,  boundary conditions, and the rainfall conditions in the Pakistan study region. 
 
 ## Topographical data
-Specifically, a high-resolution (30 m) forest and buildings removed Copernicus digital elevation model from COPDEM30  is required for flood simulation. A bilinear interpolation technique is implemented to downsample the DEM by a factor of 16 (480m). 
+A high-resolution (30 m) forest and buildings removed Copernicus digital elevation model from COPDEM30  is required for flood simulation. A bilinear interpolation technique is implemented to downsample the DEM by a factor of 16 (480m). 
 
 ##  Gridded Manning coefficient
 Land cover information is useful for estimating and adjusting friction coefficients in Floodcast. 
@@ -37,6 +42,7 @@ The flood inundation depth on 0:00 August 18 is extracted using FABDEM and the S
 If boundary conditions are to be considered in your designed model, the study area only considers the discharges at the inflow boundary, which is 13236$m3/s$.
 
 # Training and validation Dataset
+
 
 # Terms of Use
 
