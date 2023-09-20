@@ -10,14 +10,16 @@ Can we accurately predict the flood extents and depths within a 12-hour timefram
 # Important Links
 The hackathon rules are given [here](https://ml4earth23.devpost.com/)  
 ## Input Data
-Topographical data are given [here](https://drive.google.com/drive/folders/1X7ZmEvx1KUwSlLCli47UYk9bxgrbLpmo?usp=drive_link) 
-Gridded Manning coefficient are given [here](https://drive.google.com/drive/folders/1X7ZmEvx1KUwSlLCli47UYk9bxgrbLpmo?usp=drive_link) 
-
-
-The starter pack notebook is given [here](https://ml4earth23.devpost.com/)  
-The training dataset can be downloaded [here](https://ml4earth23.devpost.com/) 
-The validation dataset can be downloaded [here](https://ml4earth23.devpost.com/) 
-The data reading functions are given under folder [Code](https://ml4earth23.devpost.com/)  where:
+Topographical data are given [here](https://drive.google.com/drive/folders/1X7ZmEvx1KUwSlLCli47UYk9bxgrbLpmo?usp=drive_link)   
+Gridded Manning coefficients are given [here](https://drive.google.com/drive/folders/1X7ZmEvx1KUwSlLCli47UYk9bxgrbLpmo?usp=drive_link)   
+Initial Conditions (initial water depth) are given [here](https://drive.google.com/drive/folders/1X7ZmEvx1KUwSlLCli47UYk9bxgrbLpmo?usp=drive_link)    
+Rainfall data are given given [here](https://drive.google.com/drive/folders/1CF3nQcfJQ2zs2yUtnsEY3LTrT4PyzrPg?usp=drive_link)  
+## Training and validation Dataset 
+The training dataset can be downloaded  [here](https://drive.google.com/drive/folders/1pe5x6Nz1B6COlfE4j4YTefCe7SCouIKP?usp=drive_lin)  
+The validation dataset can be downloaded [here](https://drive.google.com/drive/folders/1ygBN8rgSAoUpdFADgRAc0UQEM3FJS2vs?usp=drive_link) 
+## How to read these data
+The data reading functions are given under folder [Code/dataset.py](https://ml4earth23.devpost.com/)  
+Complete codes of the benchmark model can be downloaded [Code/Benchmark](https://ml4earth23.devpost.com/)  
 
 # Study Region
 ![Location of the study area and elevation information](https://github.com/zhu-xlab/ML4Earth-Hackathon-2023/blob/main/Source/Picture1.png)  
@@ -32,18 +34,19 @@ A high-resolution (30 m) forest and buildings removed Copernicus digital elevati
 ##  Gridded Manning coefficient
 Land cover information is useful for estimating and adjusting friction coefficients in Floodcast. 
 
-##  Rainfall data
-The rainfall data is a grid‐based data set at $0.1^{\circ} \times 0.1^{\circ}$ spatial resolution and half-hourly temporal resolution from GPM-IMERG. Utilizing the proposed real-time rainfall processing and analysis tool in [3], rainfall data with a temporal resolution of 30s and a spatial resolution of $480 m \times 480 m$ is obtained. 
-
 ##  Initial Conditions
 The flood inundation depth on 0:00 August 18 is extracted using FABDEM and the SAR-based flood extent, based on the tool in [1,3]
+
+##  Rainfall data
+The rainfall data is a grid‐based data set at $0.1^{\circ} \times 0.1^{\circ}$ spatial resolution and half-hourly temporal resolution from GPM-IMERG. Utilizing the proposed real-time rainfall processing and analysis tool in [3], rainfall data with a temporal resolution of 30s and a spatial resolution of $480 m \times 480 m$ is obtained. 
 
 ## Boundary Conditions
 If boundary conditions are to be considered in your designed model, the study area only considers the discharges at the inflow boundary, which is 13236$m3/s$.
 
 # Training and validation Dataset
-
+In a 12-hour timeframe (43,200 seconds), we split the dataset into a training set comprising the first 30,240 seconds (1,008 dynamic process results) and a validation set comprising the remaining 12,960 seconds (432 dynamic process results). This division facilitates effective model training and evaluation.
 
 # Terms of Use
+
 
 # References
