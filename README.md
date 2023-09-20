@@ -20,7 +20,7 @@ The validation dataset can be downloaded [here](https://drive.google.com/drive/f
 ## How to read these data
 The data reading functions are given under folder [Code/Dataset/dataset.py](https://github.com/zhu-xlab/ML4Earth-Hackathon-2023/blob/main/Code/Dataset/dataset.py)  
 ## How to train these data
-Complete codes of the benchmark model can be downloaded [Code/Benchmark](https://ml4earth23.devpost.com/)  
+Complete codes of the benchmark model can be downloaded [Code/FNO_Flood](https://github.com/zhu-xlab/ML4Earth-Hackathon-2023/tree/main/Code/FNO_Flood)  
 
 # Study Region
 ![Location of the study area and elevation information](https://github.com/zhu-xlab/ML4Earth-Hackathon-2023/blob/main/Source/Picture1.png)  
