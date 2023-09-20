@@ -18,7 +18,7 @@ Rainfall data are given given [here](https://drive.google.com/drive/folders/1CF3
 The training dataset can be downloaded  [here](https://drive.google.com/drive/folders/1pe5x6Nz1B6COlfE4j4YTefCe7SCouIKP?usp=drive_lin)  
 The validation dataset can be downloaded [here](https://drive.google.com/drive/folders/1ygBN8rgSAoUpdFADgRAc0UQEM3FJS2vs?usp=drive_link) 
 ## How to read these data
-The data reading functions are given under folder [Code/dataset.py](https://ml4earth23.devpost.com/)  
+The data reading functions are given under folder [Code/Dataset/dataset.py](https://github.com/zhu-xlab/ML4Earth-Hackathon-2023/blob/main/Code/Dataset/dataset.py)  
 ## How to train these data
 Complete codes of the benchmark model can be downloaded [Code/Benchmark](https://ml4earth23.devpost.com/)  
 
