@@ -52,5 +52,5 @@ The data used in this study is sourced from a paper under review at TUM AI4EO. F
 # References
 [1] Xu, Q., Shi, Y., Guo J., Ouyang, C., & Zhu, X. X. (2023). UCDFormer: Unsupervised Change Detection Using a Transformer-driven Image Translation. IEEE Transactions on Geoscience and Remote Sensing.  
 [2] Xu, Q., Shi, Y., Bamber, J., Ouyang, C., & Zhu, X. X. (2023). A large-scale flood modeling using geometry-adaptive physics-informed neural solver and Earth observation data (No. EGU23-3276).  
-[3] u, Q., Shi, Y., Bamber, J., Ouyang, C., & Zhu, X. X. (2023). Large-scale flood modeling and forecasting with FloodCast. 
+[3] Xu, Q., Shi, Y., Bamber, J., Ouyang, C., & Zhu, X. X. (2023). Large-scale flood modeling and forecasting with FloodCast. 
 
