@@ -41,12 +41,20 @@ The flood inundation depth on 0:00 August 18 is extracted using FABDEM and the S
 The rainfall data is a grid‐based data set at $0.1^{\circ} \times 0.1^{\circ}$ spatial resolution and half-hourly temporal resolution from GPM-IMERG. Utilizing the proposed real-time rainfall processing and analysis tool in [3], rainfall data with a temporal resolution of 30s and a spatial resolution of $480 m \times 480 m$ is obtained. 
 
 ## Boundary Conditions
-If boundary conditions are to be considered in your designed model, the study area only considers the discharges at the inflow boundary, which is 13236$m3/s$.
+If boundary conditions are to be considered in your designed model, the study area only considers the discharges at the inflow boundary, which is 13236m3/s.
 
 # Training and validation Dataset
 In a 12-hour timeframe (43,200 seconds), we split the dataset into a training set comprising the first 30,240 seconds (1,008 dynamic process results) and a validation set comprising the remaining 12,960 seconds (432 dynamic process results). This division facilitates effective model training and evaluation.
 
 # Terms of Use
-
+The data used in this study is sourced from a paper under review at TUM AI4EO. For the hackathon, a partial dataset has been made available. The comprehensive Pakistan evolving benchmark dataset for flood prediction will be released once the paper is accepted. Kindly use it only for the purpose for which it was provided.
 
 # References
+[1] @article{xu2023ucdformer,
+  title={UCDFormer: Unsupervised Change Detection Using a Transformer-driven Image Translation},
+  author={Xu, Qingsong and Shi, Yilei and Guo, Jianhua and Ouyang, Chaojun and Zhu, Xiao Xiang},
+  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  year={2023},
+  publisher={IEEE}
+}  
+
