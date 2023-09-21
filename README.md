@@ -3,7 +3,7 @@
 Large-scale hydrodynamic models generally rely on fixed-resolution spatial grids and model parameters as well as incurring a high computational cost. This limits their ability to forecast flood crests and issue time-critical hazard warnings accurately. In this task, we should build a fast, stable, accurate flood modeling framework that can perform at scales from the large scale. Specifically, we will provide the input data and ground truth data in Pakistan flood 2022. Supervised or unsupervised methods based on machine learning methods should be designed to solve the 2-D shallow water equations. Finally, based on this model, a flood forecast model should be achieved in the event of the Pakistan flood in 2022.
 
 # Specific tasks for ML4Earth Hackathon  
-Can we accurately predict the flood extents and depths within a 12-hour timeframe from 0:00-12:00 on August 18, 2022 (Time step=30s)?
+Can we accurately predict the flood extents and depths within a 12-hour timeframe from 0:00-12:00 on August 18, 2022 (Time step = 30s)?
 
 # Note: To ensure fair competition, data download permissions will be made available on September 22, 2023. Participants can obtain permission for the code about data reading and access to benchmarks before that date.
 
@@ -11,6 +11,11 @@ Can we accurately predict the flood extents and depths within a 12-hour timefram
 
 # Important Links
 The hackathon rules are given [here](https://ml4earth23.devpost.com/)  
+The following results are recommended to be presented:  
+1. A comparison between the predicted flood extents and flood depths with the ground truth corresponding to water depths above 0m and 0.1m.  
+2. For flood depth, it is advisable to use the Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) as quantitative measures to assess the difference between predicted values and true values.  
+3. The comparison should focus on areas with water pixels.  
+
 ## Input Data
 Topographical data are given [here](https://drive.google.com/drive/folders/1X7ZmEvx1KUwSlLCli47UYk9bxgrbLpmo?usp=drive_link)   
 Gridded Manning coefficients are given [here](https://drive.google.com/drive/folders/1X7ZmEvx1KUwSlLCli47UYk9bxgrbLpmo?usp=drive_link)   
