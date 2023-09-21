@@ -13,7 +13,7 @@ The hackathon rules are given [here](https://ml4earth23.devpost.com/)
 Topographical data are given [here](https://drive.google.com/drive/folders/1X7ZmEvx1KUwSlLCli47UYk9bxgrbLpmo?usp=drive_link)   
 Gridded Manning coefficients are given [here](https://drive.google.com/drive/folders/1X7ZmEvx1KUwSlLCli47UYk9bxgrbLpmo?usp=drive_link)   
 Initial Conditions (initial water depth) are given [here](https://drive.google.com/drive/folders/1X7ZmEvx1KUwSlLCli47UYk9bxgrbLpmo?usp=drive_link)    
-Rainfall data are given given [here](https://drive.google.com/drive/folders/1CF3nQcfJQ2zs2yUtnsEY3LTrT4PyzrPg?usp=drive_link)  
+Rainfall data are given [here](https://drive.google.com/drive/folders/1CF3nQcfJQ2zs2yUtnsEY3LTrT4PyzrPg?usp=drive_link)  
 ## Training and validation Dataset 
 The training dataset can be downloaded  [here](https://drive.google.com/drive/folders/1pe5x6Nz1B6COlfE4j4YTefCe7SCouIKP?usp=drive_lin)  
 The validation dataset can be downloaded [here](https://drive.google.com/drive/folders/1hmbem-P-z-iPNQp_H2BED3cNtmr1WOih?usp=drive_link) 
