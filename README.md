@@ -5,6 +5,8 @@ Large-scale hydrodynamic models generally rely on fixed-resolution spatial grids
 # Specific tasks for ML4Earth Hackathon  
 Can we accurately predict the flood extents and depths within a 12-hour timeframe from 0:00-12:00 on August 18, 2022 (Time step=30s)?
 
+# Note: To ensure fair competition, data download permissions will be made available on September 22, 2023. Participants can obtain permission for the code about data reading and access to benchmarks before that date.
+
 
 
 # Important Links
