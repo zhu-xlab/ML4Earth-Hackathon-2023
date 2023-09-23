@@ -52,7 +52,7 @@ If boundary conditions are to be considered in your designed model, the study ar
 In a 12-hour timeframe (43,200 seconds), we split the dataset into a training set comprising the first 30,240 seconds (1,008 dynamic process results) and a validation set comprising the remaining 12,960 seconds (432 dynamic process results). This division facilitates effective model training and evaluation.
 
 # Terms of Use
-The data used in this study is sourced from a paper under review at TUM AI4EO. For the hackathon, a partial dataset has been made available. The comprehensive Pakistan evolving benchmark dataset for flood prediction will be released once the paper is accepted. Kindly use it only for the purpose for which it was provided.
+The data used in this study is sourced from a paper under review at TUM AI4EO. For the hackathon, a partial dataset has been made available. The comprehensive Pakistan evolving benchmark dataset for flood prediction will be released once the paper is accepted. **Kindly use it only for the purpose for which it was provided. Other uses (such as public publication) are strictly prohibited without prior notice.**
 
 # References
 [1] Xu, Q., Shi, Y., Guo J., Ouyang, C., & Zhu, X. X. (2023). UCDFormer: Unsupervised Change Detection Using a Transformer-driven Image Translation. IEEE Transactions on Geoscience and Remote Sensing.  
